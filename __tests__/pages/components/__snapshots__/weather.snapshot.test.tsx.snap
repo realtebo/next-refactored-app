@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageComponentWeather clicks the h1 element and updates the state 1`] = `
+<main
+  className="flex min-h-screen flex-col items-center justify-between p-24"
+>
+  <h1
+    onClick={[Function]}
+  >
+    The weather is 
+    sunny
+    , and the counter shows
+     
+    2
+  </h1>
+</main>
+`;
+
+exports[`PageComponentWeather renders correctly 1`] = `
+<main
+  className="flex min-h-screen flex-col items-center justify-between p-24"
+>
+  <h1
+    onClick={[Function]}
+  >
+    The weather is 
+    sunny
+    , and the counter shows
+     
+    1
+  </h1>
+</main>
+`;
